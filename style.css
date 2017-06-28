@@ -60,4 +60,12 @@ a:hover {
 	p {
 		font-size: 2rem;
 	}
+	.menu {
+		height: 20rem;
+		flex-direction: column;
+	}
+	.link {
+		height: 5rem;
+		width: 100%;
+	}
 }
