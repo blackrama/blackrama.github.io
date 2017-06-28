@@ -1,0 +1,62 @@
+html {
+	font-size: 16px;
+}
+header {
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	background: lightblue;
+}
+.menu {
+	width: 500px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	
+}
+a {
+	color: black;
+	text-decoration: none;
+	margin-left: 50px;
+	font-size: 2rem;
+	
+}
+@media screen and (max-width: 600px) {
+	.menu {
+		background: url(btn.png);
+		width: 50px;
+		height: 50px;
+		
+		
+	}
+	.link {
+		display: none;
+	}
+
+
+	.menu:hover  {
+		background: black;
+		width: 200px;
+		height: 200px;
+		color: red;
+
+	}
+	.menu:hover .link {
+			display: flex;
+			width: 200px;
+			height: 30px;
+			align-items: center;
+			border: 1px solid white;
+			background: linear-gradient(30deg, black, red)
+		
+	}
+
+}
+img {
+	margin-left: 50px;
+	width: 200px;
+	height: 200px;
+}
