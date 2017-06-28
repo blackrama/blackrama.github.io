@@ -10,7 +10,7 @@ header {
 	background: linear-gradient(120deg, rgba(23, 200, 187, 0.4),rgba(179, 255, 0, 0.21), rgba(82, 150, 126, 0.33)), linear-gradient(40deg,rgba(40, 185, 149, 0.57),rgba(183, 191, 121, 0.62),rgba(35, 135, 142, 0.66));
 }
 .menu {
-	width: 600px;
+	width: 37.5rem;
 	display: flex;
 	flex-direction: row;
 	-ms-align-items: center;
@@ -23,8 +23,7 @@ a {
 	color: black;
 	text-decoration: none;
 	font-size: 1.4rem;
-	height: 2.8rem;
-	width: 7.8rem;
+	
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
@@ -48,24 +47,54 @@ a {
 .link:hover {
 	background: rgba(42, 91, 88, 0.44);
 	color:white;
+	box-shadow: 0 1px 5px black;
 }
-a:hover {
+.link:hover a {
 	color: white;
-	box-shadow: 0 1px 5px red;
+	
 }
-@media screen and (max-device-width: 600px) {
-	html {
-		font-size: 20px;
-	}
+@media screen and (max-device-width: 800px) {
 	p {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 	.menu {
+		height: 20rem;
+		flex-direction: column;
+	
+	}
+	.link {
+		height: 5rem;
+		width: 80%;
+	}
+	.logo {
+		position: absolute;
+		opacity: 0.05;
+		
+	}
+}
+@media screen and (max-width: 600px) {
+	p {
+		font-size: 2.5rem;
+	}
+	.menu {
+
 		height: 20rem;
 		flex-direction: column;
 	}
 	.link {
 		height: 5rem;
-		width: 100%;
+		width: 50%;
+	}	
+	.logo {
+		position: absolute;
+		opacity: 0.1;
+	}
+}
+@media screen and (max-device-width: 500px) {
+	p {
+		font-size: 3rem;
+	}
+	a {
+		font-size: 3rem;
 	}
 }
