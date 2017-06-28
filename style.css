@@ -53,3 +53,8 @@ a:hover {
 	color: white;
 	box-shadow: 0 1px 5px red;
 }
+@media screen and (max-device-width: 600px) {
+	html {
+		font-size: 20px;
+	}
+}
