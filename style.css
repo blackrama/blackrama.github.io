@@ -24,7 +24,7 @@ a {
 	font-size: 2rem;
 	
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-device-width: 600px) {
 	.menu {
 		background: url(btn.png);
 		width: 50px;
