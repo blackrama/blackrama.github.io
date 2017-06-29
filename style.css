@@ -85,16 +85,24 @@ a {
 		
 	}
 	.menu {
-		
+		flex-direction: row;
 		width: 100%;
 	
 	}
-	.link {
-		border: 2px solid black;
-		height: 4rem;
+		.link {
+			display: flex;
+			-ms-align-items: center;
+			align-items: center;
+			justify-content: center;
+			height: 3rem;
+			width: 8rem;
+			border: 1px solid black;
+	}
+	.logo {
+		position: inherit;
 		
+		z-index: 99999;
 	}
 	
 }
-
 
