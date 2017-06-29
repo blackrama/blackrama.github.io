@@ -59,29 +59,34 @@ a {
 }
 @media screen and (min-device-width: 300px) {
 	p {
-		font-size: 3rem;
+		font-size: 4rem;
+		line-height: 4rem;
 		
 	}
 	.menu {
-		height: 20rem;
+		
 		flex-direction: column;
 		width: 100%;
 	
 	}
 	.link {
 		border: 3px solid black;
-		height: 4rem;
-		width: 80%;
+		height: 6rem;
+		width: 90%;
+	}
+	.link a {
+		font-size: 4rem;
 	}
 	.logo {
 		position: absolute;
 		opacity: 0.9;
-		z-index: -999990;
+		z-index: -99999;
+		
 	}
 }
 @media screen and (min-device-width: 600px) {
 	p {
-		font-size: 1.8rem;
+		font-size: 2rem;
 		
 	}
 	.menu {
@@ -95,8 +100,12 @@ a {
 			align-items: center;
 			justify-content: center;
 			height: 3rem;
-			width: 8rem;
+			width: 12rem;
 			border: 2px solid black;
+
+	}
+	.link a {
+		font-size: 2rem;
 	}
 	.logo {
 		position: inherit;
@@ -106,6 +115,7 @@ a {
 }
 @media screen and (min-device-width: 800px) {
 	p {
-		font-size: 1.3rem;
+		font-size: 1.4rem;
+
 	}
 }
