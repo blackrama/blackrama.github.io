@@ -70,12 +70,15 @@ a {
 	
 	}
 	.link {
-		border: 3px solid black;
+		border-top: 3px solid white;
+		border-bottom: 3px solid white;
 		height: 6rem;
 		width: 90%;
+		background: black;
 	}
 	.link a {
 		font-size: 4rem;
+		color: white;
 	}
 	.logo {
 		position: absolute;
@@ -117,5 +120,11 @@ a {
 	p {
 		font-size: 1.4rem;
 
+	}
+	.link {
+		background: transparent;
+	}
+	.link a {
+		color: black;
 	}
 }
