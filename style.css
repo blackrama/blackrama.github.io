@@ -104,4 +104,7 @@ a {
 	}
 	
 }
+@media screen and (min-device-widt: 780px) {
+	p {
+		font-size: 1.3rem;
 
