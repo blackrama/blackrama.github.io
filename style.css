@@ -8,7 +8,7 @@ header {
 	-ms-align-items: center;
 	align-items: center;
 	justify-content: space-around;
-	background: linear-gradient(120deg, rgba(23, 200, 187, 0.4),rgba(179, 255, 0, 0.21), rgba(82, 150, 126, 0.33)), linear-gradient(40deg,rgba(40, 185, 149, 0.57),rgba(183, 191, 121, 0.62),rgba(35, 135, 142, 0.66));
+	background: #4d6266;
 }
 .menu {
 	width: 37.5rem;
@@ -25,7 +25,7 @@ p {
 }
 a {
 	text-transform: uppercase;
-	color: black;
+	color: whte;
 	text-decoration: none;
 	font-size: 1.4rem;
 	display: flex;
@@ -42,6 +42,7 @@ a {
 }
 
 .link {
+	background: black;
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
@@ -100,7 +101,7 @@ a {
 @media screen and (min-device-width: 600px) {
 	header {
 		flex-direction: row;
-		background: linear-gradient(120deg, rgba(23, 200, 187, 0.4),rgba(179, 255, 0, 0.21), rgba(82, 150, 126, 0.33)), linear-gradient(40deg,rgba(40, 185, 149, 0.57),rgba(183, 191, 121, 0.62),rgba(35, 135, 142, 0.66));
+		background: #4d6266;
 	}
 	p {
 		font-size: 1.4rem;
@@ -113,6 +114,7 @@ a {
 	
 	}
 		.link {
+			background: black;
 			display: flex;
 			-ms-align-items: center;
 			align-items: center;
@@ -125,7 +127,7 @@ a {
 	.link a {
 		font-size: 1.4rem;
 		justify-content: center;
-		
+
 		
 	}
 	.logo {
@@ -141,11 +143,11 @@ a {
 
 	}
 	.link {
-		background: transparent;
+		background: black;
 		border: 2px solid black;
 	}
 	.link a {
-		color: black;
+		color: white;
 	}
 }
 
@@ -156,22 +158,23 @@ a {
 
 	}
 	.menu {
+		width: 100%;
 		flex-direction: column;
 	}
 	.link {
-		width: 80%;
-		background: transparent;
+		width: 100%;
+		background: black;
 		border: 1px solid black;
 	}
 	.link a {
-
-		color: black;
+		justify-content: left;
+		color: white;
 		font-size: 1.5rem;
 	}
 	.logo {
-		position: absolute;
+		/*position: absolute;
 		z-index: -9999;
-		
+		*/
 	}
 	.logo img {
 		width: 110px;
