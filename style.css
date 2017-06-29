@@ -95,11 +95,7 @@ a {
 		height: 4rem;
 		width: 80%;
 	}
-	.logo {
-		position: absolute;
-		opacity: 0.9;
-		z-index: -999990;
-	}
+	
 }
 
 
