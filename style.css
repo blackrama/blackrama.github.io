@@ -38,7 +38,7 @@ a {
 .logo img {
 	width: 200px;
 	height: 200px;
-	
+
 }
 
 .link {
@@ -61,6 +61,10 @@ a {
 }
 
 @media screen and (min-device-width: 300px) {
+	header {
+		flex-direction: row-reverse;
+		background: transparent;
+	}
 	p {
 		font-size: 3rem;
 		line-height: 3rem;
@@ -76,21 +80,28 @@ a {
 		border-top: 3px solid white;
 		border-bottom: 3px solid white;
 		height: 6rem;
-		width: 90%;
-		background: linear-gradient(90deg, rgba(63, 81, 181, 0.35),rgba(0, 0, 0, 0.58),rgba(255, 0, 0, 0.23));
+		width: 100%;
+		background: #0000a3;
+		opacity: 0.7;
+
 	}
 	.link a {
 		font-size: 3rem;
 		color: white;
+		justify-content: left;
 	}
 	.logo {
 		position: absolute;
-		opacity: 0.9;
 		z-index: -99999;
+
 		
 	}
 }
 @media screen and (min-device-width: 600px) {
+	header {
+		flex-direction: row;
+		background: linear-gradient(120deg, rgba(23, 200, 187, 0.4),rgba(179, 255, 0, 0.21), rgba(82, 150, 126, 0.33)), linear-gradient(40deg,rgba(40, 185, 149, 0.57),rgba(183, 191, 121, 0.62),rgba(35, 135, 142, 0.66));
+	}
 	p {
 		font-size: 1.4rem;
 		line-height: 1.5rem;
@@ -113,6 +124,8 @@ a {
 	}
 	.link a {
 		font-size: 1.4rem;
+		justify-content: center;
+		
 		
 	}
 	.logo {
