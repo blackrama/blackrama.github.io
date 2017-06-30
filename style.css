@@ -227,11 +227,11 @@ textarea:hover {
 @media screen and (min-device-width: 300px) {
 	body {
 		background-size: 1100px 700px;
-		background-repeat: no-repeat;
+		background-repeat: repeat-y;
 	    background-attachment: fixed;
 	}
 	.menu {
-		font-size: 40px;
+		font-size: 70px;
 		height: 5%;
 	}
 	.logo {
