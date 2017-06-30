@@ -245,11 +245,7 @@ textarea:hover {
 		font-size: 2em;
 		line-height: 1em;
 	}
-	.work {
-		flex-direction: column;
-		justify-content: space-around;
-		height: 800px;
-	}
+	
 	.work ul li {
 		font-size: 2rem;
 		line-height: 1.1em;
