@@ -223,5 +223,10 @@ textarea:hover {
 	letter-spacing: 0.5px;
 }
 /*media*/
-
+@media screen and (max-device-width: 600px) {
+	body {
+		background-size: 1100px 700px;
+		background-repeat: no-repeat;
+	    background-attachment: fixed;
+	}
 
