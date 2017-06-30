@@ -238,7 +238,7 @@ textarea:hover {
 		margin-top: 15%;
 	}
 	
-	.work h2, .about h2, .textlogo h1, .block h2 {
+	.work h2, .about h2, .textlogo h1, .mycontact h2 {
 		font-size: 3rem;
 	}
 	.about p  {
@@ -249,7 +249,7 @@ textarea:hover {
 		flex-wrap: none;
 	}
 	
-	.work ul li, .contact ul li {
+	.work ul li, .contact ul li, label {
 		font-size: 2rem;
 		line-height: 1.1em;
 	}
