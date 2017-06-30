@@ -232,7 +232,7 @@ textarea:hover {
 	}
 	.menu {
 		font-size: 50px;
-		height: 5%;
+		height: auto;
 	}
 	.logo {
 		margin-top: 15%;
