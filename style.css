@@ -245,6 +245,9 @@ textarea:hover {
 		font-size: 2em;
 		line-height: 1em;
 	}
+	.work {
+		flex-wrap: none;
+	}
 	
 	.work ul li {
 		font-size: 2rem;
