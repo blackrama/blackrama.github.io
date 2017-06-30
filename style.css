@@ -1,183 +1,221 @@
 html {
 	font-size: 16px;
-	font-family: sans-serif;
-
+	font-family: 'Source Sans Pro', sans-serif;
 }
 header {
+	background: url(background-beta3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed ;
+	width: 100%;
+	height: 700px;
 	display: flex;
+	justify-content: top;
 	-ms-align-items: center;
 	align-items: center;
-	justify-content: space-around;
-	background: #4d6266;
+	flex-direction: column;
 }
 .menu {
-	width: 37.5rem;
 	display: flex;
-	flex-direction: row;
-	-ms-align-items: center;
-	align-items: center;
-	justify-content: space-around;
-	
-}
-p {
-	line-height: 1.5rem;
-	color: grey;
-}
-a {
-	text-transform: uppercase;
-	color: whte;
-	text-decoration: none;
-	font-size: 1.4rem;
-	display: flex;
-	-ms-align-items: center;
-	align-items: center;
-	justify-content: center;
 	width: 100%;
-	height: 100%;	
-}
-.logo img {
-	width: 200px;
-	height: 200px;
-
-}
-
-.link {
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
 	background: black;
+	position: fixed;
+
+}
+.link {
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
 	justify-content: center;
-	height: 3rem;
-	width: 8rem;
-	border: 1px solid black;
+	width: 200px;
+	height: 50px;
+}
+.link a{
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
 }
 .link:hover {
-	background: rgba(42, 91, 88, 0.44);
-	color:white;
-	box-shadow: 0 1px 5px black;
+	background: #2e3d43;
 }
-.link:hover a {
+.logo {
+	margin-top: 55px;
+}
+.logo img {
+
+	width: 200px;
+	height: 200px;
+}
+.textlogo h1 {
+	font-size: 6rem;
 	color: white;
-	
+	font-weight: 900;	
 }
 
-@media screen and (min-device-width: 300px) {
-	header {
-		flex-direction: row-reverse;
-		background: transparent;
-	}
-	p {
-		font-size: 3rem;
-		line-height: 3rem;
-		
-	}
-	.menu {
-		
-		flex-direction: column;
-		width: 100%;
-	
-	}
-	.link {
-		border-top: 3px solid white;
-		border-bottom: 3px solid white;
-		height: 6rem;
-		width: 100%;
-		background: #0000a3;
-		opacity: 0.7;
-
-	}
-	.link a {
-		font-size: 3rem;
-		color: white;
-		justify-content: left;
-	}
-	.logo {
-		position: absolute;
-		z-index: -99999;
-
-		
-	}
+.about {
+	background: #e0eaeb;
+	height: 300px;
+	display: flex;
+	justify-content:center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: column;
 }
-@media screen and (min-device-width: 600px) {
-	header {
-		flex-direction: row;
-		background: #4d6266;
-	}
-	p {
-		font-size: 1.4rem;
-		line-height: 1.5rem;
-		
-	}
-	.menu {
-		flex-direction: row;
-		width: 100%;
-	
-	}
-		.link {
-			background: black;
-			display: flex;
-			-ms-align-items: center;
-			align-items: center;
-			justify-content: center;
-			height: 3rem;
-			width: 10rem;
-			border: 2px solid black;
-
-	}
-	.link a {
-		font-size: 1.4rem;
-		justify-content: center;
-
-		
-	}
-	.logo {
-		position: inherit;
-		z-index: 99999;
-	}
-	
+.about h2 {
+	font-size: 3rem;
 }
-@media screen and (min-device-width: 800px) {
-	p {
-		font-size: 1.2rem;
-		line-height: 1.4rem;
+.about p {
+	min-width: 20rem;
+	max-width: 40rem;
+	line-height: 1.5rem;
+	font-size: 1.2rem;
+}
+.work {
+	display: flex;
+	-ms-align-items:center;
+	align-items: center;
+	justify-content: space-around;
+	background: white;
+	height: 500px;
+	flex-wrap: wrap;
+}
+.work h2 {
+	font-size: 3rem;
+	border-bottom: 1px solid grey;
+	margin-bottom: 1.2rem;
+	line-height: 4rem;
+}
+.work ul {
+	display: flex;
+	flex-direction: column;
+	-ms-align-items: left;
+	align-items: left;
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	-ms-align-items: left;
+	align-items: left;
+	height: 15rem;	
+}
+.contact {
+	color:white;
+	height: 900px;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	-ms-align-items: center;
+	align-items: center;
+	background: url(background-beta3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed ;
 
-	}
-	.link {
-		background: black;
-		border: 2px solid black;
-	}
-	.link a {
-		color: white;
-	}
+}
+.block {
+	color:white;
+	min-height: 700px;
+	border: 1px solid red;
+	background: #2f3c45;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	-ms-align-items: top;
+	align-items: top;
+	flex-wrap: wrap;
 }
 
-@media screen and (max-width: 700px) {
-	p {
-		font-size: 1.2rem;
-		line-height: 1.4rem;
+form {
+	max-width: 800px;
+	min-width: 300px;
 
-	}
-	.menu {
-		width: 100%;
-		flex-direction: column;
-	}
-	.link {
-		width: 100%;
-		background: black;
-		border: 1px solid black;
-	}
-	.link a {
-		justify-content: left;
-		color: white;
-		font-size: 1.5rem;
-	}
-	.logo {
-		/*position: absolute;
-		z-index: -9999;
-		*/
-	}
-	.logo img {
-		width: 110px;
-		height: 120px;
-	}
+}
+span {
+	color: red;
+}
+.line {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	-ms-align-items: center;
+	 align-items: center;
+}
+.line:nth-child(4) {
+	height: 180px;
+}
+input {
+	border: none;
+	width: 70%;
+	height: 60px;
+	background: #65717A;
+	font-size: 20px;
+	color: white;
+	font-weight: normal;
+}
+input:hover {
+	background: #1cb8ff;
+}
+label {
+	letter-spacing: 2px;
+	width: 30%
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+textarea {
+	height: 90%;
+	width: 70%;
+	background: #65717A;
+	color: white;
+	font-size: 20px;
+	border: none;
+}
+textarea:hover {
+	background: #1cb8ff;	
+}
+
+.line:last-child input {
+
+	width: 40%;
+	background: black;
+	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+
+
+}
+.line:last-child input:hover {
+	background: white;
+	color: black;
+}
+::placeholder {
+	color: #c2d6e6;
+	padding-left: 10px;
+}
+.mycontact h2 {
+	font-size: 20px;
+	color: lightblue;
+	font-weight: 900;
+	line-height: 35px;
+	letter-spacing: 1px;
+	border-bottom: 1px solid grey;
+
+}
+.mycontact ul li {
+	line-height: 25px;
+	font-size: 18px;
+	letter-spacing: 0.5px;
 }
