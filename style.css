@@ -224,20 +224,4 @@ textarea:hover {
 }
 /*media*/
 
-@media screen and (min-device-width: 300px) {
-	body {
-		background-size: 1100px 700px;
-		background-repeat: no-repeat;
-	    background-attachment: fixed;
-	}
-	.menu {
-		font-size: 50px;
-		height: 100px;
-	}
-	.logo {
-		margin-top: 15%;
-	}
-	
-	
-}
 
