@@ -4,7 +4,7 @@ html {
 }
 body {
 	background: url(background-beta3.jpg);
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed ;
 }
