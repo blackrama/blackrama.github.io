@@ -261,7 +261,7 @@ textarea:hover {
 
 	}
 }
-@media screen and (min-device-width: 1110px) {
+@media screen and (min-device-width: 800px) {
 	body {
 		background: url(background-beta3.jpg);
 		background-size: 1500px 1000px ;
