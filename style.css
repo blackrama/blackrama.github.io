@@ -237,6 +237,10 @@ textarea:hover {
 	width: 50px;
 
 }
+.social img:hover {
+	background: #2e3d43;
+	border-radius: 25px;
+}
 /*media*/
 
 
