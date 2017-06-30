@@ -227,7 +227,7 @@ textarea:hover {
 @media screen and (min-device-width: 300px) {
 	body {
 		background-size: 1100px 700px;
-		background-repeat: repeat-y;
+		background-repeat: no-repeat;
 	    background-attachment: fixed;
 	}
 	.menu {
@@ -239,10 +239,10 @@ textarea:hover {
 	}
 	
 	.work h2, .about h2, .textlogo h1 {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	.about p  {
-		font-size: 3em;
+		font-size: 2em;
 		line-height: 1em;
 	}
 	.work {
@@ -251,8 +251,8 @@ textarea:hover {
 		height: 800px;
 	}
 	.work ul li {
-		font-size: 3rem;
-		line-height: 1.3em;
+		font-size: 2rem;
+		line-height: 1.1em;
 	}
 	
 	.block {
