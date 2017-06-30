@@ -224,7 +224,7 @@ textarea:hover {
 }
 /*media*/
 
-@media screen and (max-device-width: 300px) {
+@media screen and (min-device-width: 300px) {
 	body {
 		background-size: 1100px 700px;
 		background-repeat: no-repeat;
@@ -261,7 +261,7 @@ textarea:hover {
 
 	}
 }
-@media screen and (max-device-width: 800px) {
+@media screen and (min-device-width: 800px) {
 	body {
 		background: url(background-beta3.jpg);
 		background-size: 1500px 1000px ;
