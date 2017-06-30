@@ -127,7 +127,6 @@ header {
 .block {
 	color:white;
 	min-height: 700px;
-	border: 1px solid red;
 	background: #2f3c45;
 	display: flex;
 	justify-content: space-around;
