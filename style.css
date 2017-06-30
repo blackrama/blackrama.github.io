@@ -240,14 +240,4 @@ textarea:hover {
 	
 	
 }
-@media screen and (min-device-width: 800px) {
-	body {
-		background: url(background-beta3.jpg);
-		background-size: 1500px 1000px ;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-	}
-	.menu {
-		font-size: 16px;
-	}
-}
+
