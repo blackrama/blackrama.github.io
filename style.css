@@ -238,28 +238,7 @@ textarea:hover {
 		margin-top: 15%;
 	}
 	
-	.work h2, .about h2, .textlogo h1, .mycontact h2 {
-		font-size: 3rem;
-	}
-	.about p  {
-		font-size: 2em;
-		line-height: 1em;
-	}
-	.work {
-		flex-wrap: none;
-	}
 	
-	.work ul li, .contact ul li, label {
-		font-size: 2rem;
-		line-height: 1.1em;
-	}
-	
-	.block {
-		flex-direction: column;
-		-ms-align-items: center;
-		align-items: center;
-
-	}
 }
 @media screen and (min-device-width: 800px) {
 	body {
