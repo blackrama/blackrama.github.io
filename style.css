@@ -254,7 +254,8 @@ textarea:hover {
 	border-radius: 25px;
 }
 /*media*/
-@media screen and (max-device-width: 600px) {
+@media  screen and (max-device-width: 600px) {
 	.menu {
-		font-size: 4rem;
+		font-size: 3rem;
+	}	
 }
