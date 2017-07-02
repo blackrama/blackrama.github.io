@@ -254,7 +254,7 @@ textarea:hover {
 	border-radius: 25px;
 }
 /*media*/
-@media  screen and (max-device-width: 1200px) {
+@media  screen and (max-device-width: 600px) {
 	.menu {
 		flex-direction: column;
 		position: inherit;
