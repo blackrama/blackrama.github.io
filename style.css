@@ -261,7 +261,7 @@ textarea:hover {
 	.block {
 		flex-direction: column;
 	}
-	.mycontact {
-		font-size: 2rem;
+	.mycontact ul li{
+		font-size: 3rem;
 	}
 }
