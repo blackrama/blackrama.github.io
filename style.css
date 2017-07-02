@@ -37,8 +37,8 @@ header {
 	-ms-align-items: center;
 	align-items: center;
 	justify-content: center;
-	width: 11.11rem;
-	height: 2.78rem;
+	width: 200px;
+	height: 50px;
 }
 .link a{
 	display: flex;
@@ -55,12 +55,12 @@ header {
 	background: #2e3d43;
 }
 .logo {
-	margin-top: 3.056rem;
+	margin-top: 55px;
 }
 .logo img {
 
-	width: 11.11rem;
-	height: 11.11rem;
+	width: 200px;
+	height: 200px;
 }
 .textlogo h1 {
 	font-size: 6rem;
@@ -70,7 +70,7 @@ header {
 
 .about {
 	background: #e0eaeb;
-	min-height: 16.67rem;
+	min-height: 300px;
 	display: flex;
 	justify-content:center;
 	-ms-align-items: center;
@@ -92,7 +92,7 @@ header {
 	align-items: center;
 	justify-content: space-around;
 	background: white;
-	min-height: 27.78rem;
+	min-height: 500px;
 	flex-wrap: wrap;
 }
 .work h2 {
@@ -120,7 +120,7 @@ header {
 }
 .contact {
 	color:white;
-	height: 40rem;
+	height: 900px;
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
@@ -132,7 +132,7 @@ header {
 }
 .block {
 	color:white;
-	min-height: 3.89rem;
+	min-height: 700px;
 	background: #2f3c45;
 	display: flex;
 	justify-content: space-around;
@@ -146,17 +146,17 @@ header {
 	display: flex;
 	flex: 2;
 	flex-direction: column;
-	margin-left: 1.67rem;
+	margin-left: 30px;
 
 }
 
 form {
-	margin-left: 1.67rem;
-	margin-right: 1.67rem;
+	margin-left: 30px;
+	margin-right: 30px;
 	flex-direction: column;
 	display: flex;
 	flex: 3;
-	min-width: 16.67rem;
+	min-width: 300px;
 
 }
 span {
@@ -166,17 +166,17 @@ span {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	height: 4.44rem;
+	height: 80px;
 	-ms-align-items: center;
 	 align-items: center;
 }
 .line:nth-child(4) {
-	height: 10rem;
+	height: 180px;
 }
 input {
 	border: none;
 	width: 70%;
-	height: 3.33rem;
+	height: 60px;
 	background: #65717A;
 	font-size: 1.2rem;
 	color: white;
@@ -197,7 +197,7 @@ textarea {
 	width: 70%;
 	background: #65717A;
 	color: white;
-	font-size: 1.11rem;
+	font-size: 20px;
 	border: none;
 }
 textarea:hover {
@@ -208,9 +208,9 @@ textarea:hover {
 
 	width: 40%;
 	background: black;
-	border-radius: 0.28rem;
+	border-radius: 5px;
 	text-transform: uppercase;
-	letter-spacing: 0.17rem;
+	letter-spacing: 3px;
 
 
 }
@@ -220,19 +220,19 @@ textarea:hover {
 }
 ::placeholder {
 	color: #c2d6e6;
-	padding-left: 0.56rem;
+	padding-left: 10px;
 }
 .mycontact h2 {
-	font-size: 1.11rem;
+	font-size: 20px;
 	color: lightblue;
 	font-weight: 900;
-	line-height: 1.94rem;
+	line-height: 35px;
 	letter-spacing: 1px;
 	border-bottom: 1px solid grey;
 
 }
 .mycontact ul li {
-	line-height: 1.39rem;
+	line-height: 25px;
 	font-size: 1.2rem;
 	letter-spacing: 0.5px;
 }
@@ -247,13 +247,13 @@ textarea:hover {
 	align-items: center;
 }
 .social img {
-	height: 2.78rem;
-	width: 2.78rem;
+	height: 50px;
+	width: 50px;
 
 }
 .social img:hover {
 	background: #2e3d43;
-	border-radius: 1.39rem;
+	border-radius: 25px;
 }
 /*media*/
 @media  screen and (max-device-width: 640px) {
@@ -261,7 +261,7 @@ textarea:hover {
 		flex-direction: column;
 		position: inherit;
 		font-size: 4rem;
-		height: 22.22rem;
+		height: 400px;
 		width: 100%;
 	}	
 	.block {
@@ -292,7 +292,7 @@ textarea:hover {
 	font-size: 6rem;
 	color: white;
 	font-weight: 900;	
-	margin-bottom: 2.22rem;
+	margin-bottom: 40px;
 }
 
 }
