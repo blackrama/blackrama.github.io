@@ -1,6 +1,7 @@
 html {
 	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
+	background: black;
 }
 body {
 	background: url(background-beta3.jpg);
@@ -255,7 +256,6 @@ textarea:hover {
 }
 /*media*/
 @media  screen and (max-device-width: 640px) {
-@media  screen and (max-device-width: 640px) {
 	.menu {
 		flex-direction: column;
 		position: inherit;
@@ -282,7 +282,7 @@ textarea:hover {
 	body {
 		background-position: 0 300px;
 	}
-	label, input, .card ul li {
+	label, input, textarea, .card ul li {
 		font-size: 2rem;
 	}
 	.menu .link {
@@ -290,5 +290,12 @@ textarea:hover {
 		height: 100%;
 		border-bottom: 4px solid grey;
 	}
+
+.textlogo h1 {
+	font-size: 6rem;
+	color: white;
+	font-weight: 900;	
+	margin-bottom: 40px;
+}
 
 }
