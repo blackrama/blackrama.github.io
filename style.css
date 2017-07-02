@@ -4,7 +4,7 @@ html {
 }
 body {
 	background: url(background-beta3.jpg);
-	background-size: 100%;
+	background-size: 100% ;
 	background-repeat: no-repeat;
 	background-attachment: fixed ;
 }
@@ -113,8 +113,9 @@ header {
 	flex-direction: column;
 	justify-content: top;
 	-ms-align-items: left;
-	align-items: left;
+	align-items: flex-start;
 	height: 15rem;	
+	
 }
 .contact {
 	color:white;
@@ -138,10 +139,20 @@ header {
 	-ms-align-items: top;
 	align-items: top;
 	flex-wrap: wrap;
+	
+}
+.mycontact {
+	display: flex;
+	flex: 2;
+	flex-direction: column;
+	margin-left: 30px;
+
 }
 
 form {
-	max-width: 800px;
+	flex-direction: column;
+	display: flex;
+	flex: 3;
 	min-width: 300px;
 
 }
@@ -242,5 +253,3 @@ textarea:hover {
 	border-radius: 25px;
 }
 /*media*/
-
-
