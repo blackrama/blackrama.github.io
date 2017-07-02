@@ -257,5 +257,8 @@ textarea:hover {
 @media  screen and (max-device-width: 600px) {
 	.menu {
 		font-size: 2rem;
-	}	
+	}
+	.block {
+		flex-direction: column;
+	}
 }
