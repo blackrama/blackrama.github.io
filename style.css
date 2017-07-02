@@ -1,5 +1,5 @@
 html {
-	font-size: 16px;
+	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 body {
@@ -150,6 +150,7 @@ header {
 }
 
 form {
+	margin-left: 30px;
 	flex-direction: column;
 	display: flex;
 	flex: 3;
@@ -175,7 +176,7 @@ input {
 	width: 70%;
 	height: 60px;
 	background: #65717A;
-	font-size: 20px;
+	font-size: 1.2rem;
 	color: white;
 	font-weight: normal;
 }
@@ -184,8 +185,8 @@ input:hover {
 }
 label {
 	letter-spacing: 2px;
-	width: 30%
-	font-size: 20px;
+	width: 30%;
+	font-size: 1.2rem;
 	color: white;
 	font-weight: bold;
 }
@@ -230,7 +231,7 @@ textarea:hover {
 }
 .mycontact ul li {
 	line-height: 25px;
-	font-size: 18px;
+	font-size: 1.2rem;
 	letter-spacing: 0.5px;
 }
 .social {
