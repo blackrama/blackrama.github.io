@@ -256,6 +256,6 @@ textarea:hover {
 /*media*/
 @media  screen and (max-device-width: 600px) {
 	.menu {
-		font-size: 3rem;
+		font-size: 2rem;
 	}	
 }
