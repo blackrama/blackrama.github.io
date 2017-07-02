@@ -255,14 +255,40 @@ textarea:hover {
 }
 /*media*/
 @media  screen and (max-device-width: 640px) {
+@media  screen and (max-device-width: 640px) {
 	.menu {
 		flex-direction: column;
 		position: inherit;
 		font-size: 4rem;
 		height: 400px;
+		width: 100%;
 	}	
 	.block {
-		flex-direction: column;
-		font-size: 2rem;	
+		height: 100%;
+		flex-direction: column;	
 	}
+	.block .mycontact h2 {
+		font-size: 3rem;
+		line-height: 3.2rem;
+	}
+	.block .mycontact ul li {
+
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
+	.mycontact {
+		height: 100%;
+	}
+	body {
+		background-position: 0 300px;
+	}
+	label, input, .card ul li {
+		font-size: 2rem;
+	}
+	.menu .link {
+		width: 100%;
+		height: 100%;
+		border-bottom: 4px solid grey;
+	}
+
 }
