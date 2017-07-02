@@ -256,12 +256,10 @@ textarea:hover {
 /*media*/
 @media  screen and (max-device-width: 600px) {
 	.menu {
-		font-size: 2rem;
-	}
-	.block {
 		flex-direction: column;
-	}
-	.mycontact ul li{
-		font-size: 3rem;
-	}
+		position: inherit;
+		font-size: 4rem;
+		height: 400px;
+	}	
+
 }
