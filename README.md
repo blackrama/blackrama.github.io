@@ -1,2 +1,2 @@
-# blackrams. github.io
+# blackrama. github.io
 my first hosting
