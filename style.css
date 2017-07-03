@@ -1,5 +1,5 @@
 html {
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
 	background: black;
 }
@@ -257,6 +257,9 @@ textarea:hover {
 }
 /*media*/
 @media  screen and (max-device-width: 640px) {
+	html {
+		font-size: 18px;
+	}
 	.menu {
 		flex-direction: column;
 		position: inherit;
