@@ -185,7 +185,7 @@ input {
 	color: white;
 	font-weight: normal;
 }
-input:active, textarea:active {
+input:hover, textarea:hover {
 	background: #1cb8ff;
 }
 label {
