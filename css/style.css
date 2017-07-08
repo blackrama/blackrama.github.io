@@ -255,9 +255,9 @@ textarea {
 		flex-direction: column;	
 	}
 	.block .mycontact h2 {
-		font-size: 3rem;
+		
 		font-size: -moz 3rem;
-		line-height: 3.2rem;
+		
 		line-height: -moz 3.2rem;
 	}
 	.mycontact {
@@ -272,9 +272,9 @@ textarea {
 	 textarea, 
 	 .card ul li, 
 	 .about p {
-		 font-size: 2rem;
+		
 		font-size: -moz 2rem;
-		 line-height: 2.5rem;
+		
 		line-height: -moz 2.5rem;
 	}
 	.menu .link {
@@ -283,7 +283,6 @@ textarea {
 		
 	}
 	.textlogo h1 {
-		font-size: 6rem;
 		font-size: -moz 6rem;
 		color: white;
 		font-weight: 900;	
