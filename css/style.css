@@ -237,6 +237,56 @@ textarea {
 
 /*media---------------------mobile adaptive-------------------*/
 
+@media  screen and (max-device-width: 640px) {
+	.menu {
+		/*background: black;
+		flex-direction: column;
+		position: inherit;*/
+		font-size: 3.5rem;
+		/*height: 400px;
+		width: 100%;*/
+	}	
+/*	.menu .link {
+		display: none;
+	}*/
+	.block {
+		height: 100%;
+		flex-direction: column;	
+	}
+	.block .mycontact h2 {
+		font-size: 3rem;
+		line-height: 3.2rem;
+	}
+	.mycontact {
+		height: 100%;
+	}
+/*	body {
+		background-position: 0 300px;
+	}*/
+	.block .mycontact ul li,
+	 label, 
+	 input, 
+	 textarea, 
+	 .card ul li, 
+	 .about p {
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
+	.menu .link {
+		width: 100%;
+		height: 100%;
+		
+	}
+	.textlogo h1 {
+		font-size: 6rem;
+		color: white;
+		font-weight: 900;	
+		margin-bottom: 40px;
+	}
+	.logo {
+		margin-top: 100px;
+	}
+} 
 @media screen and (max-width: 800px) {
 	.textlogo h1 {
 		font-size: 10vw;
