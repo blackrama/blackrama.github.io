@@ -166,7 +166,7 @@ span {
 .line:nth-child(4) {
 	height: 180px;
 }
-input {
+input, textarea {
 	border: none;
 	width: 70%;
 	height: 60px;
@@ -188,11 +188,7 @@ label {
 }
 textarea {
 	height: 90%;
-	width: 70%;
-	background: #65717A;
-	color: white;
-	font-size: 20px;
-	border: none;
+	
 }
 
 .line:last-child input {
