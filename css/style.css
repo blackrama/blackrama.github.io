@@ -41,8 +41,9 @@ header {
 
 .link {
 	justify-content: center;
-	width: -moz 11.111rem;
 	width: 11.111rem;
+	width: -moz 11.111rem;
+	
 	height: 50px;
 }
 .link a{
