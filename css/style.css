@@ -288,9 +288,7 @@ textarea {
 		font-weight: 900;	
 		margin-bottom: 40px;
 	}
-	.logo {
-		margin-top: 100px;
-	}
+
 } 
 @media screen and (max-width: 800px) {
 	.textlogo h1 {
