@@ -252,6 +252,7 @@ textarea {
 	}*/
 	.block {
 		height: 100%;
+		flex: 1;
 		flex-direction: column;	
 	}
 	.block .mycontact h2 {
@@ -262,6 +263,7 @@ textarea {
 	}
 	.mycontact {
 		height: 100%;
+		flex: 1;
 	}
 /*	body {
 		background-position: 0 300px;
