@@ -264,6 +264,9 @@ textarea {
 	header input {
 		display: none;
 	}
+	header label {
+		width: 40px;
+	}
 	header label img {
 	width: 40px;
 	height: 40px;
@@ -357,6 +360,7 @@ textarea {
 		top: 0;
 		left: 0;
 		position: absolute;
+		width: 40px;
 	}
 		header label img {
 	width: 40px;
