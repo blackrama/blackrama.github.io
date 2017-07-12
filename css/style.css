@@ -45,7 +45,10 @@ header label {
 	
 	display: none;
 }
-
+	header label img {
+	width: 40px;
+	height: 40px;
+}
 
 .link {
 	justify-content: center;
@@ -355,6 +358,10 @@ textarea {
 		left: 0;
 		position: absolute;
 	}
+		header label img {
+	width: 40px;
+	height: 40px;
+}
 	.menu {
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
