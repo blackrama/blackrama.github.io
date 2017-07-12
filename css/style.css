@@ -254,7 +254,7 @@ textarea {
 		flex-direction: column;
 		position: inherit;*/
 		
-		font-size: 2.5rem;
+		font-size: 3rem;
 		/*height: 400px;
 		width: 100%;*/
 	}	
@@ -265,11 +265,11 @@ textarea {
 		display: none;
 	}
 	header label {
-		width: 40px;
+		width: 100px;
 	}
 	header label img {
-	width: 40px;
-	height: 40px;
+	width: 100px;
+	height: 100px;
 }
 	.block {
 		height: 100%;
@@ -329,12 +329,12 @@ textarea {
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
 		flex-direction: column;
-		width: 340px;
-		height: 400px;
+		width: 440px;
+		height: 600px;
 		position: absolute;
 		display: flex;
 		top: 0;
-		left: 40px;
+		left: 100px;
 	}
 	.link {
 		width: 100%;
@@ -342,7 +342,7 @@ textarea {
 	}
 	.link a {
 		justify-content: flex-start;
-		margin-left: 20px;
+		margin-left: 50px;
 
 	}
 	#checkmenu:checked + .menu {
