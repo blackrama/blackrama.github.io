@@ -261,6 +261,9 @@ textarea {
 /*	.menu .link {
 		display: none;
 	}*/
+	header input {
+		display: none;
+	}
 	.block {
 		height: 100%;
 		width: 100%;
@@ -333,7 +336,7 @@ textarea {
 	.link a {
 		justify-content: flex-start;
 		margin-left: 20px;
-		
+
 	}
 	#checkmenu:checked + .menu {
 		display: none;
@@ -346,10 +349,10 @@ textarea {
 	header label {
 		display: block;
 		cursor: pointer;
-	background: transparent;
-	top: 0;
-	left: 0;
-	position: absolute;
+		background: transparent;
+		top: 0;
+		left: 0;
+		position: absolute;
 	}
 	.menu {
 		-webkit-flex-direction: column;
