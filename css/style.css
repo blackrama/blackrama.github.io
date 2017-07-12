@@ -37,7 +37,18 @@ header {
 	position: fixed;
 	width: 100%;
 }
-
+header input {
+	display: none;
+}
+header label {
+	width: 40px;
+	
+	display: none;
+}
+header label img {
+	width: 40px;
+	height: 40px;
+}
 
 .link {
 	justify-content: center;
@@ -243,7 +254,7 @@ textarea {
 		flex-direction: column;
 		position: inherit;*/
 		
-		font-size: 3rem;
+		font-size: 2.5rem;
 		/*height: 400px;
 		width: 100%;*/
 	}	
@@ -282,11 +293,11 @@ textarea {
 		
 		line-height: 2.5rem;
 	}
-	.menu .link {
+	/*.menu .link {
 		width: 100%;
 		height: 100%;
 		
-	}
+	}*/
 	.textlogo h1 {
 		font-size: 6rem;
 		color: white;
@@ -294,10 +305,75 @@ textarea {
 		margin-bottom: 40px;
 	}
 
+		header label {
+		display: block;
+		cursor: pointer;
+	background: transparent;
+	top: 0;
+	left: 0;
+	position: absolute;
+	}
+	.menu {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		width: 340px;
+		height: 400px;
+		position: absolute;
+		display: flex;
+		top: 0;
+		left: 40px;
+	}
+	.link {
+		width: 100%;
+		
+	}
+	.link a {
+		justify-content: flex-start;
+		margin-left: 20px;
+		
+	}
+	#checkmenu:checked + .menu {
+		display: none;
+	}
 } 
 @media screen and (max-width: 800px) {
 	.textlogo h1 {
 		font-size: 10vw;
+	}
+	header label {
+		display: block;
+		cursor: pointer;
+	background: transparent;
+	top: 0;
+	left: 0;
+	position: absolute;
+	}
+	.menu {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		width: 240px;
+		height: 200px;
+		position: absolute;
+		display: flex;
+		top: 0;
+		left: 40px;
+	}
+	.link {
+		width: 100%;
+		
+	}
+	.link a {
+		justify-content: flex-start;
+		margin-left: 20px;
+	}
+	#checkmenu:checked + .menu {
+		display: none;
 	}
 
 }
