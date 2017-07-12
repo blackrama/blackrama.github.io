@@ -330,7 +330,7 @@ textarea {
 		-o-flex-direction: column;
 		flex-direction: column;
 		width: 440px;
-		height: 50vw;
+		height: 45vw;
 		position: absolute;
 		display: flex;
 		top: 0;
