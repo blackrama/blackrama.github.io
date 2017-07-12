@@ -45,10 +45,7 @@ header label {
 	
 	display: none;
 }
-header label img {
-	width: 40px;
-	height: 40px;
-}
+
 
 .link {
 	justify-content: center;
@@ -264,6 +261,10 @@ textarea {
 	header input {
 		display: none;
 	}
+	header label img {
+	width: 40px;
+	height: 40px;
+}
 	.block {
 		height: 100%;
 		width: 100%;
@@ -308,13 +309,13 @@ textarea {
 		margin-bottom: 40px;
 	}
 
-		header label {
+	header label {
 		display: block;
 		cursor: pointer;
-	background: transparent;
-	top: 0;
-	left: 0;
-	position: absolute;
+		background: transparent;
+		top: 0;
+		left: 0;
+		position: absolute;
 	}
 	.menu {
 		-webkit-flex-direction: column;
