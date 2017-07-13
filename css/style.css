@@ -81,6 +81,12 @@ header label {
 	color: white;
 	font-weight: 900;	
 }
+.textlogo p {
+	color: #fff;
+	text-align: right;
+	font-size: 1.7rem;
+	line-height: 3rem;
+}
 /*----------about-------------about-----items--------------------*/
 .about {
 	background: #e0eaeb;
@@ -90,9 +96,10 @@ header label {
 }
 .about h2 {
 	font-size: 3rem;
+
 }
 .about p {
-	min-width: 18rem;
+	min-width: 16rem;
 	max-width: 40rem;
 	line-height: 1.5rem;
 	font-size: 1.2rem;
@@ -103,9 +110,11 @@ header label {
 	background: white;
 	min-height: 500px;
 	flex-wrap: wrap;
+
 }
 .work h2 {
 	font-size: 3rem;
+	height: 5rem;
 	border-bottom: 1px solid grey;
 	margin-bottom: 1.2rem;
 	line-height: 4rem;
@@ -125,6 +134,8 @@ header label {
 	-ms-align-items: flex-start;
 	align-items: flex-start;
 	height: 15rem;	
+	
+
 	
 }
 
@@ -249,18 +260,9 @@ textarea {
 /*media---------------------mobile adaptive-------------------*/
 
 @media  screen and (max-device-width: 640px) {
-	.menu {
-		/*background: black;
-		flex-direction: column;
-		position: inherit;*/
-		
+	.menu {		
 		font-size: 3rem;
-		/*height: 400px;
-		width: 100%;*/
 	}	
-/*	.menu .link {
-		display: none;
-	}*/
 	header input {
 		display: none;
 	}
@@ -268,8 +270,8 @@ textarea {
 		width: 100px;
 	}
 	header label img {
-	width: 100px;
-	height: 100px;
+		width: 100px;
+		height: 100px;
 }
 	.block {
 		height: 100%;
@@ -277,9 +279,7 @@ textarea {
 		flex-direction: column;	
 	}
 	.block .mycontact h2 {
-		
 		font-size: 3rem;
-		
 		line-height: 3.2rem;
 	}
 	.mycontact {
@@ -289,9 +289,6 @@ textarea {
 	form {
 		width: 95%;
 	}
-/*	body {
-		background-position: 0 300px;
-	}*/
 	.block .mycontact ul li,
 	 label, 
 	 input, 
@@ -303,18 +300,12 @@ textarea {
 		
 		line-height: 2.5rem;
 	}
-	/*.menu .link {
-		width: 100%;
-		height: 100%;
-		
-	}*/
 	.textlogo h1 {
 		font-size: 6rem;
 		color: white;
 		font-weight: 900;	
 		margin-bottom: 40px;
 	}
-
 	header label {
 		display: block;
 		cursor: pointer;
@@ -353,6 +344,10 @@ textarea {
 @media screen and (max-width: 800px) {
 	.textlogo h1, .about h2 {
 		font-size: 10vw;
+	}
+	.textlogo p {
+		font-size: 5vw;
+		line-height: 2rem;
 	}
 	
 	header label {
