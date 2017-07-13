@@ -354,7 +354,7 @@ textarea {
 		line-height: 2rem;
 	}
 	.line:last-child input {
-		margin-top: 1rem;
+		margin-top: .5rem;
 	}
 	header label {
 		display: block;
@@ -375,7 +375,7 @@ textarea {
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
 		flex-direction: column;
-		
+		height: 6rem;
 	}
 	.line label {
 		display: -webkit-flex;
@@ -385,9 +385,12 @@ textarea {
 		display: flex;
 		-ms-align-items: center;
 		align-items: center;
-		height: 4rem;
+		height: 3rem;
 		width: 100%;
 		
+	}
+	.line:nth-child(4) {
+		height: 20rem;
 	}
 	.line input, .line textarea {
 		width: 100%;
