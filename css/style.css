@@ -345,6 +345,7 @@ textarea {
 	}
 } 
 @media screen and (max-width: 800px) {
+	
 	.textlogo h1, .about h2 {
 		font-size: 10vw;
 	}
@@ -352,7 +353,9 @@ textarea {
 		font-size: 5vw;
 		line-height: 2rem;
 	}
-	
+	.line:last-child input {
+		margin-top: 1rem;
+	}
 	header label {
 		display: block;
 		cursor: pointer;
@@ -372,7 +375,7 @@ textarea {
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
 		flex-direction: column;
-
+		
 	}
 	.line label {
 		display: -webkit-flex;
@@ -382,7 +385,7 @@ textarea {
 		display: flex;
 		-ms-align-items: center;
 		align-items: center;
-		height: 3rem;
+		height: 4rem;
 		width: 100%;
 		
 	}
