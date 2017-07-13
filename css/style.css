@@ -306,6 +306,9 @@ textarea {
 		font-weight: 900;	
 		margin-bottom: 40px;
 	}
+	.textlogo p {
+		line-height: 2rem;
+	}
 	header label {
 		display: block;
 		cursor: pointer;
