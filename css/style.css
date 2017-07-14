@@ -234,6 +234,7 @@ textarea {
 	font-weight: 900;
 	line-height: 35px;
 	letter-spacing: 1px;
+	border-bottom: 1px solid grey;
 	
 }
 .mycontact ul li {
@@ -268,12 +269,14 @@ textarea {
 	}
 	header label {
 		width: 100px;
+
 	}
 	header label img {
 		width: 100px;
 		height: 100px;
 }
 	.block {
+
 		height: 100%;
 		width: 100%;
 		flex-direction: column;	
@@ -281,10 +284,13 @@ textarea {
 	.block .mycontact h2 {
 		font-size: 3rem;
 		line-height: 3.2rem;
+		
+		
 	}
 	.mycontact {
 		height: 100%;
-		width: 100%;
+		width: 90%;
+		border: 5px solid red;
 	}
 	form {
 		width: 95%;
@@ -323,6 +329,7 @@ textarea {
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
 		flex-direction: column;
+		
 		width: 440px;
 		height: 45vw;
 		position: absolute;
