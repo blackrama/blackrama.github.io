@@ -455,10 +455,6 @@ textarea {
 		display: -moz-flex;
 		display: -ms-flex;
 		display: -o-flex;
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		display: -o-flex;
 		display: flex;
 		-ms-align-items: center;
 		align-items: center;
