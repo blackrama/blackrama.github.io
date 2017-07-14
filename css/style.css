@@ -54,8 +54,8 @@ header label {
 	justify-content: center;
 	width: 11.111rem;
 	width: -moz 11.111rem;
-	
 	height: 50px;
+	transition: 0.3s ease;
 }
 .link a{
 	justify-content: center;
@@ -133,10 +133,7 @@ header label {
 	justify-content: flex-start;
 	-ms-align-items: flex-start;
 	align-items: flex-start;
-	height: 15rem;	
-	
-
-	
+	height: 15rem;		
 }
 
 /*contact--------------------contact------items-------------------*/
@@ -196,6 +193,7 @@ input, textarea {
 	font-size: 1.2rem;
 	color: white;
 	font-weight: normal;
+	transition: 0.4s ease;
 }
 input:hover,
 textarea:hover {
