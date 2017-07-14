@@ -19,6 +19,10 @@ header,
 .work,
 .line,
 .social {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
@@ -131,6 +135,10 @@ header label {
 	line-height: 4rem;
 }
 .work ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	-webkit-flex-direction: column;
 	-moz-flex-direction: column;
@@ -143,6 +151,10 @@ header label {
 	line-height: 2rem;
 }
 .card {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	-webkit-flex-direction: column;
 	-moz-flex-direction: column;
@@ -160,6 +172,10 @@ header label {
 .contact {
 	color:white;
 	height: 900px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
@@ -171,6 +187,10 @@ header label {
 	color:white;
 	min-height: 700px;
 	background: #2f3c45;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
@@ -179,6 +199,10 @@ header label {
 	flex-wrap: wrap;
 }
 .mycontact {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	flex: 2;
 	-webkit-flex-direction: column;
@@ -197,6 +221,10 @@ form {
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	flex: 3;
 	min-width: 300px;
@@ -364,6 +392,10 @@ textarea {
 		width: 440px;
 		height: 45vw;
 		position: absolute;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
 		display: flex;
 		top: 0;
 		left: 100px;
@@ -423,6 +455,10 @@ textarea {
 		display: -moz-flex;
 		display: -ms-flex;
 		display: -o-flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
 		display: flex;
 		-ms-align-items: center;
 		align-items: center;
@@ -445,6 +481,10 @@ textarea {
 		width: 240px;
 		height: 150px;
 		position: absolute;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
 		display: flex;
 		top: 0;
 		left: 40px;
