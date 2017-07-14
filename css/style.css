@@ -250,10 +250,12 @@ textarea {
 .social img {
 	height: 50px;
 	width: 50px;
+	border-radius: 25px;
+	transition: 0.4s ease;
 }
 .social img:hover {
 	background: #2e3d43;
-	border-radius: 25px;
+	
 }
 
 /*media---------------------mobile adaptive-------------------*/
