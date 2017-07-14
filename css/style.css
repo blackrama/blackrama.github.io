@@ -345,9 +345,12 @@ textarea {
 	}
 } 
 @media screen and (max-width: 800px) {
+	html {
+		font-size: 14px;
+	}
 	
-	.textlogo h1, .about h2 {
-		font-size: 10vw;
+	.textlogo h1, .about h2, .card h2 {
+		font-size: 8vw;
 	}
 	.textlogo p {
 		font-size: 5vw;
@@ -419,5 +422,8 @@ textarea {
 	#checkmenu:checked + .menu {
 		display: none;
 	}
-
+.social img {
+	width: 10vh;
+	height: 10vh;
+}
 }
