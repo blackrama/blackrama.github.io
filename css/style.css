@@ -481,7 +481,7 @@ textarea {
 		display: -moz-flex;
 		display: -ms-flex;
 		display: -o-flex;
-		display: flex;
+		display: none;
 		top: 0;
 		left: 40px;
 	}
@@ -494,7 +494,7 @@ textarea {
 		margin-left: 20px;
 	}
 	#checkmenu:checked + .menu {
-		display: none;
+		display: flex;
 	}
 .social img {
 	width: 7.5vh;
