@@ -267,7 +267,7 @@ textarea {
 }
 
 .line:last-child input {
-	width: 40%;
+	width: 30%;
 	background: black;
 	border-radius: 5px;
 	text-transform: uppercase;
