@@ -251,6 +251,8 @@ input, textarea {
 	transition: 0.4s ease;
 }
 input:hover,
+input:focus,
+textarea:focus,
 textarea:hover {
 	background: #1cb8ff;
 }
